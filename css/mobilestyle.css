@@ -1,0 +1,59 @@
+#navbar{
+    display: flex;
+    flex-direction: column;
+    
+}
+#navbar ul li a{
+    color: white;
+    font-size: 0.9rem;
+    margin: 4px 4px;
+    padding: 3px 2px
+}
+#navbar::before{
+    height: 180%;
+}
+.home{
+    padding: 4px 4px;
+    height: 359px;
+}
+.home::before{
+    height: 386px;
+    top: 145px;
+}
+.home p{
+    font-size: 1rem;
+}
+.btn{
+    padding: 2px 5px;
+    font-size: 13px;
+    margin: 2px;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+}
+#services .box img{
+    height: 120px;
+}
+.Brand-section{
+    overflow: hidden;
+}
+.h-primary{
+    font-size: 1.4rem;
+    padding: 2px;
+}
+.home p{
+    font-size: 1rem;
+}
+.h-secondary{
+    font-size: 1.4rem;
+}
+.brand_items{
+    margin: 14px;  
+}
+.brand{
+    flex-wrap: wrap;
+}
+.brand_items img{
+    height: auto;
+}
